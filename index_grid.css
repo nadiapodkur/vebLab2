@@ -10,6 +10,7 @@ body {
     gap: 5%; 
 }
 
+.left_section,
 .right_section {
     display: flex;
     flex-direction: column;
@@ -20,11 +21,9 @@ body {
     background-color: lightgray;
     font-family: cursive;
 }
-
 .tree {
     padding: 2%;
 }
-
 .two {
     padding: 5%;
 }
