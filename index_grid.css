@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.whole_body {
+    display: grid; 
+    width: 100%;
+    grid-template-columns: 70% 25%;
+    gap: 5%; 
+}
+
+.right_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.tree, .two {
+    flex-grow: 1;
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+.tree {
+    padding: 2%;
+}
+
+.two {
+    padding: 5%;
+}
+
+.five {
+    background-color: darkgray;
+    margin-top: auto;
+}
+
+.one {
+    position: relative;
+    background-image: url(../images/header_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: myCursive;
+    src: url(../fonts/myCursive.ttf);
+}
+
+.four {
+    position: relative;
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    float: right; 
+    padding: 3%; 
+    font-family: myCursive; 
+    font-size: 4vw; 
+    color: white;
+}
+
+.intro-text {
+    font-weight: bold;
+}
+
+.studio-photo {
+    width: 30%; 
+    height: auto;
+}
+
+.footer-text {
+    color: white; 
+    font-family: myCursive; 
+    font-size: xx-large; 
+    padding-left: 4%;
+}
+
+.nav-list {
+    font-size: xx-large; 
+    font-family: cursive;
+}
+
+li {
+    font-size: x-large;
+}
+.nav-link {
+    color: black;
+}
+
+.contact-header {
+    font-family: myCursive; 
+    padding: 5%; 
+    font-size: xx-large; 
+    position: relative;
+    left: 5%;
+}
